@@ -1,0 +1,28 @@
+{
+  "name": "@soroban-react/freighter",
+  "keywords": [
+    "soroban-react",
+    "freighter"
+  ],
+  "license": "Apache-2.0",
+  "repository": "github:esteblock/soroban-react",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "5.0.3",
+  "scripts": {
+    "prebuild": "del /s /q dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "@soroban-react/types": "^5.0.3",
+    "@stellar/freighter-api": "^1.4.0"
+  }
+}

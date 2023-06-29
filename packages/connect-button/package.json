@@ -1,0 +1,24 @@
+{
+  "name": "@soroban-react/connect-button",
+  "keywords": [
+    "soroban-react",
+    "connect-button"
+  ],
+  "license": "Apache-2.0",
+  "repository": "github:esteblock/soroban-react",
+  "version": "5.0.3",
+  "scripts": {
+    "prebuild": "del /s /q dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "@soroban-react/core": "^5.0.3"
+  }
+}
